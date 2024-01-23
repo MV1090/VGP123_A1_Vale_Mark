@@ -18,6 +18,7 @@ public class PlayerControls : MonoBehaviour
     [SerializeField] private Transform GroundCheck;
     [SerializeField] private LayerMask isGroundLayer;
     [SerializeField] private float groundCheckRadius = 0.02f;
+    
 
 
 
@@ -73,11 +74,13 @@ public class PlayerControls : MonoBehaviour
 
         if (Input.GetButtonDown("Fire2") && isGrounded)
         {
-            anim.Play("Punch");            
+
+            anim.SetTrigger("Attack");
+          
         }
 
-            
 
+        //anim.SetBool("Punch", punch);
         anim.SetBool("IsGrounded", isGrounded);
         anim.SetFloat("Speed", Mathf.Abs(xInput));
 

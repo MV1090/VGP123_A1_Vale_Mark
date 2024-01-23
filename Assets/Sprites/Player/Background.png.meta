@@ -114,10 +114,10 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 8
-        y: 248
+        y: 249
         width: 22
         height: 31
-      alignment: 9
+      alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -131,7 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Background_1
+      name: idle2
       rect:
         serializedVersion: 2
         x: 40
@@ -152,15 +152,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dance 2
+      name: idle3
       rect:
         serializedVersion: 2
         x: 72
         y: 249
         width: 24
         height: 31
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1401,7 +1401,6 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Background_1: -592431692
       Background_10: -1812025353
       Background_11: 991293379
       Background_12: -1883001785
@@ -1454,7 +1453,8 @@ TextureImporter:
       Pogo1: 582254805
       Pogo2: 1194880721
       Pogo3: 273845391
-      dance 2: 206088750
+      idle2: -592431692
+      idle3: 206088750
       jump 1: 545744303
       jump 2: 1435004193
       punch1: 1676573402

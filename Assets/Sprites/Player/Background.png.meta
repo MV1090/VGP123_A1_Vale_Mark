@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 20
+  spritePixelsToUnits: 30
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -908,7 +908,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Background_38
+      name: Death1
       rect:
         serializedVersion: 2
         x: 168
@@ -929,7 +929,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Background_39
+      name: Death2
       rect:
         serializedVersion: 2
         x: 200
@@ -950,7 +950,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Background_40
+      name: Death3
       rect:
         serializedVersion: 2
         x: 232
@@ -1426,9 +1426,6 @@ TextureImporter:
       Background_35: -1012836129
       Background_36: -862751603
       Background_37: 750794638
-      Background_38: 220977727
-      Background_39: 1175814067
-      Background_40: 1736682351
       Background_41: -912565381
       Background_42: -214804568
       Background_43: -523687388
@@ -1449,6 +1446,9 @@ TextureImporter:
       Background_58: -1528708147
       Background_59: 950911168
       Background_60: -1980917519
+      Death1: 220977727
+      Death2: 1175814067
+      Death3: 1736682351
       Idle: -2053634813
       Pogo1: 582254805
       Pogo2: 1194880721

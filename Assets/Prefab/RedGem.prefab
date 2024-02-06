@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1560008253016938698}
   - component: {fileID: 2354343948348986619}
   - component: {fileID: 5149475163914590860}
+  - component: {fileID: 2970149495830789524}
   m_Layer: 0
   m_Name: RedGem
   m_TagString: Untagged
@@ -72,8 +73,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -278162183
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: -37316719, guid: 3dd6840f39899a84894e6bfaea4d63df, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -133,3 +134,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34e394403e20abc468ecedafd8a6c91d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &2970149495830789524
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5700098707164917214}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

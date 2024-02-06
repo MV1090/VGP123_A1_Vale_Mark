@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 20
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EnemySpritSheet_2
+      name: Hog1
       rect:
         serializedVersion: 2
         x: 99
@@ -2190,7 +2190,6 @@ TextureImporter:
       EnemySpritSheet_17: 1586291255
       EnemySpritSheet_18: -1083959018
       EnemySpritSheet_19: -598880390
-      EnemySpritSheet_2: -1845383456
       EnemySpritSheet_20: 1330946396
       EnemySpritSheet_21: 1217171555
       EnemySpritSheet_22: 1381067950
@@ -2276,6 +2275,7 @@ TextureImporter:
       EnemySpritSheet_95: 2043542179
       EnemySpritSheet_96: 1383331817
       EnemySpritSheet_97: -1592671422
+      Hog1: -1845383456
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

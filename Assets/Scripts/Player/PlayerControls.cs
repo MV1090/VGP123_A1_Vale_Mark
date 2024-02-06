@@ -145,6 +145,11 @@ public class PlayerControls : MonoBehaviour
         }
     }
 
-  
+    [SerializeField] private float bounce = 2.0f;
+    public void PogoBounce()
+    {
+        rb.AddForce(Vector2.up * bounce, ForceMode2D.Impulse);
+    }
+
 }
 
